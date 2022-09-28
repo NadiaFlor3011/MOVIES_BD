@@ -10,9 +10,11 @@
     <figure>
       <img src="/img/logo-DH.png" alt="Logo Digital House" />
     </figure>
-    <h1><%= actors.firts_name %> <%= actors.firts_name %></h1>
+    <h1><%= movies.title %></h1>
     <br />
-    <p>RATING: <%= actors.rating %></p>
-    <p>FAVORITE MOVIE: <%= actors.favorite_movie_id %></p>
+    <p>RATING: <%= movies.rating %></p>
+    <p>AWARDS: <%= movies.awards %></p>
+    <p>LENGTH: <%= movies.length + ' min'%></p>
+    <p>RELEASE DATE: <%= movies.release_date %></p>
   </body>
 </html>
